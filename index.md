@@ -10,4 +10,4 @@
 
 **Time:** {{ site.timing }}
 
-**Office Hours:** {{site.officehours}}
+**Office Hours:** {{site.officehours}} ({{site.office}})

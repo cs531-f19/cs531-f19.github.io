@@ -14,6 +14,8 @@ title: Syllabus
 
 **Time:** {{ site.timing }}
 
+**Office:** {{site.office}}
+
 **Office Hours:** {{ site.officehours }}
 
 **Prerequisites:** {{ site.prerequisites }}

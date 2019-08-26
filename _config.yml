@@ -3,6 +3,7 @@ description: A course to develop a standard compliant general purpose HTTP web s
 semester: Fall 2019
 homepage: https://cs531-f19.github.io/
 prerequisites: Familiarity with Unix/Linux, Socket programming, Git, and Docker
+office: E&CS 3102
 officehours: Thursdays, 3:00-4:00pm and by appointment
 university:
   name: Old Dominion University
