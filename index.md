@@ -20,10 +20,10 @@ https://tools.ietf.org/html/rfc1630
 
 {%- for rfc in site.data.rfcs.current -%}
 * [RFC {{ rfc[0] }}: {{ rfc[1] }}](https://tools.ietf.org/html/rfc{{ rfc[0] }})
-{%- endfor -%}
+{% endfor %}
 
 ### Historical RFCs
 
 {%- for rfc in site.data.rfcs.historical -%}
 * [RFC {{ rfc[0] }}: {{ rfc[1] }}](https://tools.ietf.org/html/rfc{{ rfc[0] }})
-{%- endfor -%}
+{% endfor %}
