@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title | default: 'Home' }} | {{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name"><a href="{{ '/' | relative_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      <a href="{{ '/' | relative_url }}" class="btn{% if page.name == 'index.md' %} active{% endif %}">Home</a>
+      <a href="{{ '/syllabus' | relative_url }}" class="btn{% if page.name == 'syllabus.md' %} active{% endif %}">Syllabus</a>
+      <a href="{{ site.discussions }}" class="btn">Discussions</a>
+    </section>
+    <section class="main-content">
+
+      {{ content }}
+
+      <footer class="site-footer">
+        <span class="site-footer-credits">
+          {{ site.title }} by <a href="{{ site.instructor.home }}">{{ site.instructor.name }}</a>
+          <a href="https://twitter.com/{{ site.instructor.twitter }}">@{{ site.instructor.twitter }}</a>
+        </span>
+      </footer>
+    </section>
+  </body>
+</html>
