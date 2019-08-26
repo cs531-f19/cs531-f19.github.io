@@ -1,14 +1,14 @@
 <div class="instructor">
   <img src="{{ site.instructor.avatar | append: '?v=' | append: site.github.build_revision | relative_url }}" alt="{{ site.instructor.name }}" class="avatar"><br>
-  [{{ site.instructor.name }}]({{ site.instructor.url }})<br>
-  {{ site.instructor.email }}
+  <b><a href="{{ site.instructor.url }}">{{ site.instructor.name }}</a></b>
+  &lt;{{ site.instructor.email }}&gt;
 </div>
 
 {% include intro.md %}
 
 **Location:** {{ site.location }}
 
-**Time:** {{ site.time }}
+**Time:** {{ site.timing }}
 
 **Office Hours:** {{site.officehours}}
 
