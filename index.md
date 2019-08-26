@@ -16,9 +16,9 @@
 
 ### Current RFCs
 
-{%- for rfc in site.data.rfcs.current -%}
+{%- for rfc in site.data.rfcs.current %}
 * [RFC {{ rfc[0] }}: {{ rfc[1] }}](https://tools.ietf.org/html/rfc{{ rfc[0] }})
-{% endfor %}
+{%- endfor %}
 
 ### Historical RFCs
 
