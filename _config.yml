@@ -1,5 +1,5 @@
 title: CS 431/531 Web Server Design
-description: A course to develop a standard compliant general purpose HTTP web server
+description: A course to develop a standard compliant HTTP web server
 semester: Fall 2019
 homepage: https://cs531-f19.github.io/
 prerequisites: Familiarity with Unix/Linux, Socket programming, Git, and Docker
