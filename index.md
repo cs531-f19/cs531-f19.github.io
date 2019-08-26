@@ -11,3 +11,17 @@
 **Time:** {{ site.timing }}
 
 **Office Hours:** {{site.officehours}} ({{site.office}})
+
+## Request for Comments (RFCs)
+
+### Current RFCs
+
+{% for rfc in site.data.rfcs.current %}
+* {{ rfc[0] }}: {{ rfc[1] }}
+{% endfor %}
+
+### Historical RFCs
+
+{% for rfc in site.data.rfcs.historical %}
+* {{ rfc[0] }}: {{ rfc[1] }}
+{% endfor %}

@@ -1,0 +1,17 @@
+historical:
+  1630: "Universal Resource Identifiers in WWW"
+  1867: "Form-based File Upload in HTML"
+  2295: "Transparent Content Negotiation in HTTP"
+  2396: "Uniform Resource Identifier (URI): Generic Syntax"
+  2616: "Hypertext Transfer Protocol -- HTTP/1.1"
+current:
+  3875: "The Common Gateway Interface (CGI) Version 1.1"
+  3986: "Uniform Resource Identifier (URI): Generic Syntax"
+  7230: "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing"
+  7231: "Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content"
+  7232: "Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests"
+  7233: "Hypertext Transfer Protocol (HTTP/1.1): Range Requests"
+  7234: "Hypertext Transfer Protocol (HTTP/1.1): Caching"
+  7235: "Hypertext Transfer Protocol (HTTP/1.1): Authentication"
+  7616: "HTTP Digest Access Authentication"
+  7617: "The 'Basic' HTTP Authentication Scheme"
