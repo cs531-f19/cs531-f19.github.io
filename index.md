@@ -11,5 +11,3 @@
 **Time:** {{ site.timing }}
 
 **Office Hours:** {{site.officehours}}
-
-**Prerequisites:** {{site.prerequisites}}
