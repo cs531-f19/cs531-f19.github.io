@@ -14,6 +14,9 @@
 
 ## Request for Comments (RFCs)
 
+As the course progresses we will primarily be exploring and implementing parts of the following RFCs.
+We might also refer to some additional specifications as we find them relevant.
+
 ### Current RFCs
 
 {%- for rfc in site.data.rfcs.current %}
