@@ -4,11 +4,11 @@ title: Syllabus
 
 # {{ page.title }}
 
-**{{ site.title }}, {{ page.semester }}**
+**{{ site.title }}, {{ site.semester }}**
 
-**Instructor:** {{ site.instructor.name }} &lt;{{ site.instructor.email }}&gt;
+**Instructor:** [{{ site.instructor.name }}]({{ site.instructor.url }}) &lt;{{ site.instructor.email }}&gt;
 
-**CRNs: {{ site.crns | join '/' }}**
+**CRNs:** {{ site.crns | join '/' }}
 
 **Location:** {{ site.location }}
 
