@@ -8,7 +8,7 @@ title: Syllabus
 
 **Instructor:** [{{ site.instructor.name }}]({{ site.instructor.url }}) &lt;{{ site.instructor.email }}&gt;
 
-**CRNs:** {{ site.crns | join '/' }}
+**CRNs:** {{ site.crns | join: ' and ' }}
 
 **Location:** {{ site.location }}
 
