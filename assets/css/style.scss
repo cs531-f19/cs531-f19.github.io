@@ -16,3 +16,13 @@
     text-decoration: none;
   }
 }
+
+.instructor {
+  text-align: center;
+  .avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 1px solid #ccc;
+  }
+}
