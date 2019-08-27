@@ -17,14 +17,10 @@
 As the course progresses we will primarily be exploring and implementing parts of the following RFCs.
 We might also refer to some additional specifications as we find them relevant.
 
-### Current RFCs
+{% for rfcgroup in site.data.rfcs %}
+### {{ rfcgroup[0] | capitalize }} RFCs
 
-{%- for rfc in site.data.rfcs.current %}
+{%- for rfc in rfcgroup[1] %}
 * [RFC {{ rfc[0] }}: {{ rfc[1] }}](https://tools.ietf.org/html/rfc{{ rfc[0] }})
 {%- endfor %}
-
-### Historical RFCs
-
-{%- for rfc in site.data.rfcs.historical %}
-* [RFC {{ rfc[0] }}: {{ rfc[1] }}](https://tools.ietf.org/html/rfc{{ rfc[0] }})
-{%- endfor %}
+{% endfor %}
