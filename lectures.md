@@ -11,7 +11,7 @@ permalink: /lectures/
 <section class="lecture card{% if lect.featured %} featured{% endif %}">
   <div class="date">
     <div class="month">
-      {{ lect.date | date: "%b" }}
+      {{ lect.date | date: "%b" | upcase }}
     </div>
     <div class="day">
       {{ lect.date | date: "%d" }}

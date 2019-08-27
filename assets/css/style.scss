@@ -36,3 +36,29 @@
   background-color: $alert-bg-color;
   color: $alert-text-color;
 }
+
+.card {
+  border: 1px solid $border-color;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.card .date {
+  width: 80px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 5px;
+  background: lighten($header-bg-color, 40%);
+  color: $header-heading-color;
+  border-radius: 10px 0 0 10px;
+}
+
+.card.featured .date {
+  background: $header-bg-color-secondary;
+}
+
+.card .details {
+  padding: 5px;
+  flex: 1;
+}
