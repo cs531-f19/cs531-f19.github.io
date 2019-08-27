@@ -26,3 +26,13 @@
     border: 1px solid #ccc;
   }
 }
+
+.important {
+  font-weight: bold;
+  color: $alert-text-color;
+}
+
+.notice {
+  background-color: $alert-bg-color;
+  color: $alert-text-color;
+}

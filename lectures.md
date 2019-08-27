@@ -9,4 +9,7 @@ permalink: /lectures/
 
 {%- for lect in site.data.lectures %}
 * {{ lect.date }} - {{ lect.title }}
+  {%- for topic in lect.topics %}
+  * {{ topic }}
+  {%- endfor %}
 {%- endfor %}
