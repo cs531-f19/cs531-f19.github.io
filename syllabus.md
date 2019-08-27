@@ -1,5 +1,6 @@
 ---
 title: Syllabus
+permalink: /syllabus/
 ---
 
 # {{ page.title }}
