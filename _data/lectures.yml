@@ -1,0 +1,88 @@
+- title: Lecture 1
+  date: August 29, 2019
+  topics:
+  - Administrivia
+  - Introduction to HTTP
+  - W3C Web Architecture
+  - Git/GitHub
+  - telnet
+  - curl
+  - wget
+- title: Lecture 2
+  date: September 5, 2019
+  topics:
+  - URIs
+  - Logs
+  - MIME
+  - Socket Programming
+  - Introduction to Docker
+  - Cloud Server Hosting
+  - Testing Setup
+- title: Lecture 3
+  date: September 12, 2019
+  topics:
+  - Conditionals (ETags and Date-time)
+  - Redirections
+- title: Lecture 4
+  date: September 19, 2019
+  topics:
+  - Long-lived Connections
+  - Pipelines
+- title: Lecture 5
+  date: September 26, 2019
+  topics:
+  - Range and Partial Content
+- title: Lecture 6
+  date: October 3, 2019
+  topics:
+  - Transfer Encodings
+  - Content Encodings
+- title: Lecture 7
+  date: October 10, 2019
+  topics:
+  - Content Negotiation
+- title: Lecture 8
+  date: October 17, 2019
+  topics:
+  - Authentication (Basic and Digest)
+- title: Lecture 9
+  date: October 24, 2019
+  topics:
+  - Unsafe Methods
+- title: Lecture 10
+  date: October 31, 2019
+  topics:
+  - Server-side Execution
+  - CGI
+- title: Lecture 11
+  date: November 7, 2019
+  topics:
+  - HTTPS (HTTP Over TLS)
+  - HTTP/2
+  - HTTP/3
+- title: Lecture 12
+  date: November 14, 2019
+  topics:
+  - HTTP Method Support
+  - HTTPMailbox
+  - Memento
+  - WARC
+  - Web Packaging
+  - REST/HATEOAS
+- title: Lecture 13
+  date: November 21, 2019
+  topics:
+  - Proxy
+  - Caching
+- title: Thanksgiving
+  date: November 28, 2019
+  topics:
+  - No Class
+- title: RESERVED
+  date: December 5, 2019
+  topics:
+  - TBD
+- title: Exam Week
+  date: December 12, 2019
+  topics:
+  - No Class
