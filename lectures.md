@@ -5,7 +5,7 @@ permalink: /lectures/
 
 # {{ page.title }}
 
-<p class="important">Subject to change!</p>
+<p class="important"><strong>Subject to change!</strong></p>
 
 {%- for lect in site.data.lectures %}
 <section class="lecture card{% if lect.featured %} featured{% endif %}">

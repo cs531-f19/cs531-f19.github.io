@@ -5,4 +5,4 @@ permalink: /assignments/
 
 # {{ page.title }}
 
-<p class="important">Subject to change!</p>
+<p class="important"><strong>Subject to change!</strong></p>
