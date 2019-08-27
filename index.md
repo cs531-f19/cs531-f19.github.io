@@ -1,16 +1,16 @@
 <div class="instructor">
-  <img src="{{ site.instructor.avatar | append: '?v=' | append: site.github.build_revision | relative_url }}" alt="{{ site.instructor.name }}" class="avatar"><br>
-  <b><a href="{{ site.instructor.url }}">{{ site.instructor.name }}</a></b><br>
-  &lt;{{ site.instructor.email }}&gt;
+  <img src="{{ site.data.course.instructor.avatar | append: '?v=' | append: site.github.build_revision | relative_url }}" alt="{{ site.instructor.name }}" class="avatar"><br>
+  <b><a href="{{ site.data.course.instructor.url }}">{{ site.data.course.instructor.name }}</a></b><br>
+  &lt;{{ site.data.course.instructor.email }}&gt;
 </div>
 
 {% include intro.md %}
 
-**Location:** {{ site.location }}
+**Location:** {{ site.data.course.location }}
 
-**Time:** {{ site.timing }}
+**Time:** {{ site.data.course.timing }}
 
-**Office Hours:** {{site.officehours}} ({{site.office}})
+**Office Hours:** {{site.data.course.officehours}} ({{site.data.course.office}})
 
 ## Request for Comments (RFCs)
 
