@@ -14,7 +14,7 @@
       <h1 class="project-name"><a href="{{ '/' | relative_url }}">{{ site.data.course.title | default: site.github.repository_name }}</a></h1>
       <h2 class="project-tagline">{{ site.data.course.description | default: site.github.project_tagline }}</h2>
       <a href="{{ '/' | relative_url }}" class="btn{% if page.name == 'index.md' %} active{% endif %}">Home</a>
-      <a href="{{ '/syllabus' | relative_url }}" class="btn{% if page.name == 'syllabus.md' %} active{% endif %}">Syllabus</a>
+      <a href="{{ '/syllabus/' | relative_url }}" class="btn{% if page.name == 'syllabus.md' %} active{% endif %}">Syllabus</a>
       <a href="{{ site.data.course.discussions }}" class="btn">Discussions</a>
     </section>
     <section class="main-content">
