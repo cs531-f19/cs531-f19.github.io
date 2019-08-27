@@ -56,7 +56,7 @@ Readings and assignment descriptions will be released on a rolling basis during 
 | B     |    87-84 |         86-82 |
 | B-    |    83-80 |         81-80 |
 | C+    |    79-78 |         79-77 |
-| C     |    77-74 |         77-72 |
+| C     |    77-74 |         76-72 |
 | C-    |    73-70 |         71-70 |
 | D+    |      N/A |         69-67 |
 | D     |      N/A |         66-62 |
