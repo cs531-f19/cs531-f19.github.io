@@ -48,21 +48,24 @@ The class grade will consist of 5 Assignments of 20 points each.
 Each assignment will be demoed in class. Late assignments lose 3 points for every 24 hours they are late unless prior arrangements are made with the instructor.
 Readings and assignment descriptions will be released on a rolling basis during the semester.
 
-| Grade | Graduate | Undergraduate |
-|:------|---------:|--------------:|
-| A     |   100-94 |        100-92 |
-| A-    |    93-90 |         91-90 |
-| B+    |    89-88 |         89-87 |
-| B     |    87-84 |         86-82 |
-| B-    |    83-80 |         81-80 |
-| C+    |    79-78 |         79-77 |
-| C     |    77-74 |         76-72 |
-| C-    |    73-70 |         71-70 |
-| D+    |      N/A |         69-67 |
-| D     |      N/A |         66-62 |
-| D-    |      N/A |         61-60 |
-| F     |    69-00 |         59-00 |
-
+<table>
+  <thead>
+    <tr>
+    {% for column in site.data.grades[0] %}
+        <th>{{ column[0] }}</th>
+    {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+  {% for row in site.data.grades %}
+    <tr>
+    {% for cell in row %}
+        <td>{{ cell[1] }}</td>
+    {% endfor %}
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
 
 ## Honor Code
 
