@@ -1,5 +1,5 @@
-**Location:** {{ site.data.course.location }}
+<p><strong>Location:</strong> <span class="important">{{ site.data.course.location }}</span></p>
 
-**Time:** {{ site.data.course.timing }}
+<p><strong>Time:</strong> <span class="important">{{ site.data.course.timing }}</span></p>
 
-**Office Hours:** {{site.data.course.officehours}} ({{site.data.course.office}})
+<p><strong>Office Hours:</strong> <span class="important">{{site.data.course.officehours}} ({{site.data.course.office}})</span></p>
