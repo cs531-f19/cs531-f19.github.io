@@ -27,7 +27,7 @@ permalink: /syllabus/
 
 **Textbook (not mandatory):** [HTTP Developer's Handbook by Chris Shiflett](https://www.amazon.com/HTTP-Developers-Handbook-Chris-Shiflett/dp/0672324547)
 
-{% include intro.md detail=true %}
+{% include description.md %}
 
 ## Attendance Policy
 
