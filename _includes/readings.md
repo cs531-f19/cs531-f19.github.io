@@ -1,4 +1,4 @@
-## Readings
+## Reading Materials
 
 As the course progresses we will primarily be exploring and implementing parts of the following Request for Comments (RFCs).
 We might also refer to some additional specifications as we find them relevant.
