@@ -9,7 +9,8 @@ permalink: /
 
 {% include highlights.md %}
 
-{%- for lect in site.data.lectures | where: 'featured', true %}
+{%- assign featured_lectures = site.data.lectures | where: 'featured', true %}
+{%- for lect in featured_lectures %}
 {% include card.md item=lect %}
 {%- endfor %}
 
