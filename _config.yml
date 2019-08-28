@@ -1,3 +1,22 @@
+navmenu:
+- title: Home
+  href: /
+  file: index.md
+- title: Syllabus
+  href: /syllabus/
+  file: syllabus.md
+- title: Lectures
+  href: /lectures/
+  file: lectures.md
+- title: Assignments
+  href: /assignments/
+  file: assignments.md
+- title: Tester
+  href: https://cs531.cs.odu.edu/
+  file: external
+- title: Discussions
+  href: https://github.com/cs531-f19/discussions
+  file: external
 defaults:
 - scope:
     path: ""

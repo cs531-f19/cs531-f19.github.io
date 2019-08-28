@@ -13,12 +13,9 @@
     <section class="page-header">
       <h1 class="project-name"><a href="{{ '/' | relative_url }}">{{ site.data.course.title | default: site.github.repository_name }}</a></h1>
       <h2 class="project-tagline">{{ site.data.course.description | default: site.github.project_tagline }}</h2>
-      <a href="{{ '/' | relative_url }}" class="btn{% if page.name == 'index.md' %} active{% endif %}">Home</a>
-      <a href="{{ '/syllabus/' | relative_url }}" class="btn{% if page.name == 'syllabus.md' %} active{% endif %}">Syllabus</a>
-      <a href="{{ '/lectures/' | relative_url }}" class="btn{% if page.name == 'lectures.md' %} active{% endif %}">Lectures</a>
-      <a href="{{ '/assignments/' | relative_url }}" class="btn{% if page.name == 'assignments.md' %} active{% endif %}">Assignments</a>
-      <a href="{{ '/tester/' }}" class="btn">Tester</a>
-      <a href="{{ site.data.course.discussions }}" class="btn">Discussions</a>
+      {%- for item in site.navmenu %}
+      <a href="{{ item.href | relative_url }}" class="btn{% if page.name == item.file %} active{% endif %}">{{ item.title }}</a>
+      {%- endfor %}
     </section>
     <section class="main-content">
 
