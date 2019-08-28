@@ -7,7 +7,7 @@ permalink: /assignments/
 
 <p class="important"><strong>* Assignments are subject to change!</strong></p>
 
-{%- assign regular_assignments = site.data.assignments | where: 'extra', false %}
+{%- assign regular_assignments = site.data.assignments | where_exp: 'item', 'item.extra != true' %}
 {%- for assignment in regular_assignments %}
 {% include card.md item=assignment type="assignment" %}
 {%- endfor %}
@@ -16,7 +16,7 @@ permalink: /assignments/
 {%- if extra_assignments.size > 0 %}
 ## Extra Point Assignments
 
-{%- for lecture in extra_assignments %}
+{%- for assignment in extra_assignments %}
 {% include card.md item=assignment type="assignment" %}
 {%- endfor %}
 {%- endif %}
