@@ -7,6 +7,6 @@ permalink: /lectures/
 
 <p class="important"><strong>Subject to change!</strong></p>
 
-{%- for lect in site.data.lectures %}
-{% include card.md item=lect %}
+{%- for lecture in site.data.lectures %}
+{% include card.md item=lecture %}
 {%- endfor %}

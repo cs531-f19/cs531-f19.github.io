@@ -1,4 +1,4 @@
-<section class="lecture card{% if include.item.featured %} featured{% endif %}">
+<section class="{{include.type}} card{% if include.item.featured %} featured{% endif %}">
   <div class="date">
     <div class="month">
       {{ include.item.date | date: "%b" | upcase }}
