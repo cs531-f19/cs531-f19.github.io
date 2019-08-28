@@ -8,7 +8,7 @@
     </div>
   </div>
   <div class="details">
-    <h3>{{ include.item.title }}{% if include.item.points %} ({{ include.item.points }}){% endif %}</h3>
+    <h3>{{ include.item.title }}{% if include.item.points %} (Points Available: {{ include.item.points }}){% endif %}</h3>
     {%- if include.item.description %}
     <p>{{ include.item.description }}</p>
     {%- endif %}
