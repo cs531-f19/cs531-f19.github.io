@@ -10,5 +10,5 @@ permalink: /lectures/
 <p class="important"><strong>* Class schedule is subject to change!</strong></p>
 
 {%- for lecture in site.data.lectures %}
-{% include card.md item=lecture %}
+{% include card.md item=lecture type="lecture" %}
 {%- endfor %}
