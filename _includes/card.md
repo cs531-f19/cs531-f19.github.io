@@ -22,7 +22,7 @@
     {%- if include.item.links.size > 0 %}
     <ul class="links">
       {%- for link in include.item.links %}
-      <li><a href="{{ link.title }}">{{ link.href }}</a></li>
+      <li><a href="{{ link.href | relative_url }}">{{ link.title }}</a></li>
       {%- endfor %}
     </ul>
     {%- endif %}
