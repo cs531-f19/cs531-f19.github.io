@@ -13,10 +13,10 @@ permalink: /assignments/
 {%- endfor %}
 
 {%- assign extra_assignments = site.data.assignments | where: 'extra', true %}
-{%- if extra_assignments.size > 0 %}
 ## Extra Point Assignments
+
+Opportunities to earn extra points will be made available on a rolling basis during the semester.
 
 {%- for assignment in extra_assignments %}
 {% include card.md item=assignment type="assignment" %}
 {%- endfor %}
-{%- endif %}
