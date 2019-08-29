@@ -2,7 +2,8 @@
 permalink: /assignments/assignment-0-0
 ---
 
-{% include assignment_meta.md item=site.data.assignments[0] %}
+{%- assign assignment = site.data.assignments[0] %}
+{% include assignment_meta.md item=assignment %}
 
 ## Part 1 - Join GitHub
 
