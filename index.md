@@ -25,7 +25,8 @@ permalink: /
 ## Due Assignments
 
 {%- for assignment in featured_assignments %}
-{% include card.md item=assignment[1] type="assignment" %}
+{%- assign val = assignment[1] %}
+{% include card.md item=val type="assignment" %}
 {%- endfor %}
 
 [All Assignments]({{ '/assignments/' | relative_url }})
