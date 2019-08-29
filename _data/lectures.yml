@@ -1,6 +1,5 @@
 - title: Lecture 1
   date: 2019-08-29
-  featured: true
   topics:
   - Administrivia
   - Introduction to HTTP
@@ -16,6 +15,7 @@
     href: /slides/lecture-01-github.pdf
 - title: Lecture 2
   date: 2019-09-05
+  featured: true
   topics:
   - URIs
   - Logs
