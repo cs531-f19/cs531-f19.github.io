@@ -1,15 +1,8 @@
 ---
-title: Assignment 0-0
 permalink: /assignments/assignment-0-0
 ---
 
-# {{ page.title }}
-
-A set of mandatory tasks, which will give extra points if done timely.
-
-<p><strong>Due Date:</strong> <span class="important">2019-09-05</span></p>
-
-<p><strong>Available Points:</strong> <span class="important">5</span></p>
+{% include assignment_meta.md item=site.data.assignments[0] %}
 
 ## Part 1 - Join GitHub
 
