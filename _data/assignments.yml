@@ -18,3 +18,27 @@
   links:
   - title: Assignment 1 Details
     href: /assignments/assignment-1
+- title: Assignment 2
+  date: 2019-10-03
+  points: 20
+  links:
+  - title: Assignment 2 Details
+    href: /assignments/assignment-2
+- title: Assignment 3
+  date: 2019-10-17
+  points: 20
+  links:
+  - title: Assignment 3 Details
+    href: /assignments/assignment-3
+- title: Assignment 4
+  date: 2019-10-31
+  points: 20
+  links:
+  - title: Assignment 4 Details
+    href: /assignments/assignment-4
+- title: Assignment 5
+  date: 2019-11-14
+  points: 20
+  links:
+  - title: Assignment 5 Details
+    href: /assignments/assignment-5
