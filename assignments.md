@@ -7,18 +7,20 @@ permalink: /assignments/
 
 <p class="important"><strong>* Assignments are subject to change!</strong></p>
 
-{%- assign regular_assignments = site.data.assignments | where_exp: 'item', 'item[1].extra != true' %}
-{%- for assignment in regular_assignments %}
+{%- for assignment in site.data.assignments %}
 {%- assign val = assignment[1] %}
+{%- unless val.extra %}
 {% include card.md item=val type="assignment" %}
+{%- endunless %}
 {%- endfor %}
 
-{%- assign extra_assignments = site.data.assignments | where_exp: 'item', 'item[1].extra == true' %}
 ## Extra Point Assignments
 
 Opportunities to earn extra points will be made available on a rolling basis during the semester.
 
-{%- for assignment in extra_assignments %}
+{%- for assignment in site.data.assignments %}
 {%- assign val = assignment[1] %}
+{%- if val.extra %}
 {% include card.md item=val type="assignment" %}
+{%- endif %}
 {%- endfor %}
