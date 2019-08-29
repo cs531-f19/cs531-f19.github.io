@@ -18,7 +18,9 @@ A set of mandatory tasks, which will give extra points if done timely.
 
 ## Part 2 - Subscribe to the discussion board repository
 
-* Subscribe to the [course discussion repository](https://github.com/cs531-f19/discussions) by watching if for all notification
+* Subscribe to the [course discussion repository](https://github.com/cs531-f19/discussions) by watching it for all notification
+* Reply to the [Introduce yourself](https://github.com/cs531-f19/discussions/issues/1) thread
+* This repository is public, so be careful about what you share there
 
 ## Part 3 - Create your private assignment repository
 
