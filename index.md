@@ -20,12 +20,12 @@ permalink: /
 [All Lectures]({{ '/lectures/' | relative_url }})
 {%- endif %}
 
-{%- assign featured_assignments = site.data.assignments | where: 'featured', true %}
+{%- assign featured_assignments = site.data.assignments | where_exp: 'item', 'item[1].featured == true' %}
 {%- if featured_assignments.size > 0 %}
 ## Due Assignments
 
 {%- for assignment in featured_assignments %}
-{% include card.md item=assignment type="assignment" %}
+{% include card.md item=assignment[1] type="assignment" %}
 {%- endfor %}
 
 [All Assignments]({{ '/assignments/' | relative_url }})

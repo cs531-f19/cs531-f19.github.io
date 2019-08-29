@@ -1,4 +1,5 @@
-- title: Assignment 0-0
+assignment-0-0:
+  title: Assignment 0-0
   description: A set of mandatory tasks, which will give extra points if done timely.
   date: 2019-09-05
   points: 5
@@ -12,35 +13,40 @@
   links:
   - title: Assignment 0-0 Details
     href: /assignments/assignment-0-0
-- title: Assignment 1
+assignment-1:
+  title: Assignment 1
   description: TBD
   date: 2019-09-19
   points: 20
   links:
   - title: Assignment 1 Details
     href: /assignments/assignment-1
-- title: Assignment 2
+assignment-2:
+  title: Assignment 2
   description: TBD
   date: 2019-10-03
   points: 20
   links:
   - title: Assignment 2 Details
     href: /assignments/assignment-2
-- title: Assignment 3
+assignment-3:
+  title: Assignment 3
   description: TBD
   date: 2019-10-17
   points: 20
   links:
   - title: Assignment 3 Details
     href: /assignments/assignment-3
-- title: Assignment 4
+assignment-4:
+  title: Assignment 4
   description: TBD
   date: 2019-10-31
   points: 20
   links:
   - title: Assignment 4 Details
     href: /assignments/assignment-4
-- title: Assignment 5
+assignment-5:
+  title: Assignment 5
   description: TBD
   date: 2019-11-14
   points: 20
