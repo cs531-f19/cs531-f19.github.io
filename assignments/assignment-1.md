@@ -28,7 +28,7 @@ Make your `Dockerfile` run your server on port `80` by default.
 ## Request Headers
 
 * `Connection: close`
-* `Host: <YOUR-HOST>`
+* `Host`
 
 ## Response Headers
 
