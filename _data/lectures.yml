@@ -32,6 +32,8 @@
   links:
   - title: URIs, Logs, and MIME Slides
     href: /slides/lecture-02-uris-logs-mime.pdf
+  - title: Socket Programming Slides
+    href: /slides/lecture-02-socket.pdf
   - title: Interactive Docker Tutorial
     href: https://training.play-with-docker.com/microservice-orchestration/
   - title: Testing Server
