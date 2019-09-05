@@ -5,6 +5,8 @@ permalink: /assignments/assignment-0-0
 {%- assign assignment = site.data.assignments["assignment-0-0"] %}
 {% include assignment_meta.md item=assignment %}
 
+See [Git/GitHub Slides](/slides/lecture-01-github.pdf) for help.
+
 ## Part 1 - Join GitHub
 
 * Set up an account on GitHub, if not already
