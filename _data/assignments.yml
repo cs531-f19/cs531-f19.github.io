@@ -30,7 +30,7 @@ assignment-0-1:
     href: /assignments/assignment-0-1
 assignment-1:
   title: Assignment 1
-  description: A web server with a limited set of methods, status codes, headers, MIME types.
+  description: A web server with a limited set of methods, status codes, headers, MIME types, and the access log.
   date: 2019-09-19
   points: 20
   links:
