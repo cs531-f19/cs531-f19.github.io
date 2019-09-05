@@ -13,6 +13,21 @@ assignment-0-0:
   links:
   - title: Assignment 0-0 Details
     href: /assignments/assignment-0-0
+assignment-0-1:
+  title: Assignment 0-1
+  description: A Dokerized echo server implementation and cloud hosting tutorial.
+  date: 2019-09-12
+  points: 10
+  extra: true
+  featured: true
+  topics:
+  - Implement a simple echo server
+  - Run it in a Docker container
+  - Prepare a step by step cloud server set up tutorial
+  - Run an echo server in it
+  links:
+  - title: Assignment 0-1 Details
+    href: /assignments/assignment-0-1
 assignment-1:
   title: Assignment 1
   description: TBD
