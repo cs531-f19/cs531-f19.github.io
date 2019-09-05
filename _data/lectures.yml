@@ -22,8 +22,10 @@
   - MIME
   - Socket Programming
   - Introduction to Docker
-  - Cloud Server Hosting
   - Testing Setup
+  links:
+  - title: URIs, Logs, and MIME Slides
+    href: /slides/lecture-02-uris-logs-mime.pdf
 - title: Lecture 3
   date: 2019-09-12
   topics:
