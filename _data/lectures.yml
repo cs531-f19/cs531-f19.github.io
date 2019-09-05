@@ -13,6 +13,12 @@
     href: /slides/lecture-01-admin-http.pdf
   - title: GitHub Account and PR Slides
     href: /slides/lecture-01-github.pdf
+  - title: Web Architecture
+    href: https://www.w3.org/TR/webarch/
+  - title: RFC 7230 (Sections 1, 2, and 3)
+    href: https://tools.ietf.org/html/rfc7230
+  - title: RFC 7231 (Sections 1, 2, 4, and 6)
+    href: https://tools.ietf.org/html/rfc7231
 - title: Lecture 2
   date: 2019-09-05
   featured: true
@@ -30,6 +36,10 @@
     href: https://training.play-with-docker.com/microservice-orchestration/
   - title: Testing Server
     href: https://cs531.cs.odu.edu/
+  - title: RFC 7231 (Section 5)
+    href: https://tools.ietf.org/html/rfc7230
+  - title: RFC 3986
+    href: https://tools.ietf.org/html/rfc3986
 - title: Lecture 3
   date: 2019-09-12
   topics:
