@@ -17,6 +17,7 @@ navmenu:
 - title: Discussions
   href: https://github.com/cs531-f19/discussions
   file: external
+permalink: /:categories/:title/
 defaults:
 - scope:
     path: ""

@@ -1,6 +1,5 @@
 ---
 title: Assignment 0-0
-permalink: /assignments/assignment-0-0
 ---
 
 {%- assign assignment = site.data.assignments | where: "title", page.title | first %}
