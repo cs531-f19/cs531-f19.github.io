@@ -1,6 +1,6 @@
 ---
-permalink: /assignments/assignment-3
+title: Assignment 3
 ---
 
-{%- assign assignment = site.data.assignments | where: "id", "assignment-3" | first %}
+{%- assign assignment = site.data.assignments | where: "title", page.title | first %}
 {% include assignment_meta.md item=assignment %}
