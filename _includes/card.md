@@ -1,4 +1,4 @@
-<section class="{{include.type}} card{% if include.item.featured %} featured{% endif %}">
+<section class="{{ include.type }} card{% if include.item.featured %} featured{% endif %}">
   <div class="date">
     <div class="month">
       {{ include.item.date | date: "%b" | upcase }}
@@ -8,7 +8,12 @@
     </div>
   </div>
   <div class="details">
-    <h3>{{ include.item.title }}{% if include.item.points %} (Points Available: {{ include.item.points }}){% endif %}</h3>
+    {%- if include.type == "assignment" %}
+    <h3><a href="/assignments/{{ include.item.title | slugify }}">{{ include.item.title }}</a></h3>
+    <p><strong>Available Points:</strong> <span class="important">{{ include.item.points }}</span></p>
+    {%- else %}
+    <h3>{{ include.item.title }}</h3>
+    {%- endif %}
     {%- if include.item.description %}
     <p>{{ include.item.description }}</p>
     {%- endif %}
@@ -25,6 +30,9 @@
       <li><a href="{{ link.href | relative_url }}">{{ link.title }}</a></li>
       {%- endfor %}
     </ul>
+    {%- endif %}
+    {%- if include.type == "assignment" %}
+    <p class="expand"><a href="/assignments/{{ include.item.title | slugify }}">{{ include.item.title }} Details</a></p>
     {%- endif %}
   </div>
 </section>
