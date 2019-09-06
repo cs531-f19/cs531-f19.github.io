@@ -2,8 +2,6 @@
 title: Syllabus
 ---
 
-# {{ page.title }}
-
 {% include summary.md %}
 
 {% include description.md %}

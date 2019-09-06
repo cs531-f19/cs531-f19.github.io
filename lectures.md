@@ -2,8 +2,6 @@
 title: Lectures
 ---
 
-# {{ page.title }}
-
 {{ site.data.course.timing }}, {{ site.data.course.location }}
 
 <p class="important"><strong>* Class schedule is subject to change!</strong></p>
