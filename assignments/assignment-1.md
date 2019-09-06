@@ -2,7 +2,7 @@
 title: Assignment 1
 ---
 
-<!-- {{ page.slug }} -->
+<!-- {{ slug }} -->
 {%- for assignment in site.data.assignments %}
 {%- assign itemid = assignment.title | slugify %}
 <!-- {{ itemid }} -->
