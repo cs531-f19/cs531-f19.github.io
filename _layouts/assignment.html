@@ -6,6 +6,7 @@ layout: default
 {%- for assignment in site.data.assignments %}
 {%- assign itemid = assignment.title | slugify %}
 {%- if itemid == pageid %}
+{%- assign page.title = assignment.title %}
 <h1>{{ assignment.title }}</h1>
 
 {{ assignment.description }}
