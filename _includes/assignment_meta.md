@@ -1,17 +1,19 @@
-# {{ include.item.title }}
+{%- assign assignment = site.data.assignments | where_exp:"item", "item.title.slugify == page.slug" | first %}
 
-{{ include.item.description }}
+# {{ assignment.title }}
+
+{{ assignment.description }}
 
 <p>
-<strong>Due Date:</strong> <span class="important">{{ include.item.date }}</span>
-{%- if include.item.featured %}
+<strong>Due Date:</strong> <span class="important">{{ assignment.date }}</span>
+{%- if assignment.featured %}
 <strong>(<span class="important">Submission due!</span>)</strong>
 {%- endif %}
 </p>
 
 <p>
-<strong>Available Points:</strong> <span class="important">{{ include.item.points }}</span>
-{%- if include.item.extra %}
+<strong>Available Points:</strong> <span class="important">{{ assignment.points }}</span>
+{%- if assignment.extra %}
 (Extra points)
 {%- endif %}
 </p>
