@@ -1,6 +1,5 @@
 ---
 title: Home
-permalink: /
 ---
 
 {% include instructor.md %}

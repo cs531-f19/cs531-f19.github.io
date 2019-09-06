@@ -1,6 +1,5 @@
 ---
 title: Lectures
-permalink: /lectures/
 ---
 
 # {{ page.title }}
