@@ -2,7 +2,7 @@
 title: Assignment 1
 ---
 
-{%- assign assignment = site.data.assignments | where: "title", page.title | first %}
+{%- assign assignment = site.data.assignments | where_exp:"item", "item.title.slugify == page.slug" | first %}
 {% include assignment_meta.md item=assignment %}
 
 Make your `Dockerfile` run your server on port `80` by default.
