@@ -1,8 +1,6 @@
 ---
 ---
 
-{% include assignment_meta.md %}
-
 Make your `Dockerfile` run your server on port `80` by default.
 [Release](https://help.github.com/en/articles/creating-releases) your implementation with the `a1` tag.
 

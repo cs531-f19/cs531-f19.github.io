@@ -1,8 +1,6 @@
 ---
 ---
 
-{% include assignment_meta.md %}
-
 ## Part 1 - Echo Server in Docker
 
 * Write a simple echo back server in your chosen programming language in your private assignment repository (an echo server returns the same message that it receives)

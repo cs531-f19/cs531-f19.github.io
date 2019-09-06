@@ -1,8 +1,6 @@
 ---
 ---
 
-{% include assignment_meta.md %}
-
 See [Git/GitHub Slides](/slides/lecture-01-github.pdf) for help.
 
 ## Part 1 - Join GitHub

@@ -1,8 +1,12 @@
+---
+layout: default
+---
+
 {%- assign pageid =  page.name | split: "." | first %}
 {%- for assignment in site.data.assignments %}
 {%- assign itemid = assignment.title | slugify %}
 {%- if itemid == pageid %}
-# {{ assignment.title }}
+<h1>{{ assignment.title }}</h1>
 
 {{ assignment.description }}
 
@@ -22,3 +26,5 @@
 {%- break %}
 {%- endif %}
 {%- endfor %}
+
+{{ content }}

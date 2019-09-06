@@ -23,3 +23,7 @@ defaults:
     path: ""
   values:
     layout: "default"
+- scope:
+    path: "assignments/*"
+  values:
+    layout: "assignment"
