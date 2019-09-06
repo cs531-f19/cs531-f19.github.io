@@ -11,7 +11,7 @@ permalink: /
 
 {%- assign featured_lectures = site.data.lectures | where: 'featured', true %}
 {%- if featured_lectures.size > 0 %}
-## Upcoming Lectures
+## Recent/Upcoming Lectures
 
 {%- for lecture in featured_lectures %}
 {% include card.md item=lecture type="lecture" %}

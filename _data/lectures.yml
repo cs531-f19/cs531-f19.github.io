@@ -44,6 +44,7 @@
     href: https://tools.ietf.org/html/rfc3986
 - title: Lecture 3
   date: 2019-09-12
+  featured: true
   topics:
   - Conditionals (ETags and Date-time)
   - Redirections
