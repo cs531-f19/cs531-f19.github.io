@@ -2,8 +2,10 @@
 title: Assignment 1
 ---
 
+<!-- {{ page.slug }} -->
 {%- for assignment in site.data.assignments %}
 {%- assign itemid = assignment.title | slugify %}
+<!-- {{ itemid }} -->
 {%- if itemid == page.slug %}
 {% include assignment_meta.md item=assignment %}
 {%- break %}
