@@ -2,11 +2,10 @@
 title: Assignment 1
 ---
 
-<!-- {{ page.name | split: "." | first }} -->
+{%- assign pageid =  page.name | split: "." | first %}
 {%- for assignment in site.data.assignments %}
 {%- assign itemid = assignment.title | slugify %}
-<!-- {{ itemid }} -->
-{%- if itemid == page.slug %}
+{%- if itemid == pageid %}
 {% include assignment_meta.md item=assignment %}
 {%- break %}
 {%- endif %}
