@@ -9,10 +9,10 @@
   </div>
   <div class="details">
     {%- if include.type == "assignment" %}
-    <h3><a href="/assignments/{{ include.item.title | slugify }}">{{ include.item.title }}</a></h3>
+    <h2><a href="/assignments/{{ include.item.title | slugify }}">{{ include.item.title }}</a></h2>
     <p><strong>Available Points:</strong> <span class="important">{{ include.item.points }}</span></p>
     {%- else %}
-    <h3>{{ include.item.title }}</h3>
+    <h2>{{ include.item.title }}</h2>
     {%- endif %}
     {%- if include.item.description %}
     <p>{{ include.item.description }}</p>

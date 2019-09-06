@@ -17,7 +17,7 @@ permalink: /
 {% include card.md item=lecture type="lecture" %}
 {%- endfor %}
 
-[All Lectures]({{ '/lectures/' | relative_url }})
+<p class="expand"><a href="{{ '/lectures/' | relative_url }}">All Lectures</a></p>
 {%- endif %}
 
 {%- assign featured_assignments = site.data.assignments | where: 'featured', true %}
@@ -28,7 +28,7 @@ permalink: /
 {% include card.md item=assignment type="assignment" %}
 {%- endfor %}
 
-[All Assignments]({{ '/assignments/' | relative_url }})
+<p class="expand"><a href="{{ '/assignments/' | relative_url }}">All Assignments</a></p>
 {%- endif %}
 
 {% include readings.md %}
