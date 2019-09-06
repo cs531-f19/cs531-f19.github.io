@@ -2,8 +2,13 @@
 title: Assignment 1
 ---
 
-{%- assign assignment = site.data.assignments | where_exp:"item", "item.title.slugify == page.slug" | first %}
+{%- for assignment in site.data.assignments %}
+{%- assign itemid = assignment.title | slugify %}
+{%- if itemid == page.slug %}
 {% include assignment_meta.md item=assignment %}
+{%- break %}
+{%- endif %}
+{%- endfor %}
 
 Make your `Dockerfile` run your server on port `80` by default.
 [Release](https://help.github.com/en/articles/creating-releases) your implementation with the `a1` tag.
