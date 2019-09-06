@@ -1,15 +1,7 @@
 ---
-title: Assignment 1
 ---
 
-{%- assign pageid =  page.name | split: "." | first %}
-{%- for assignment in site.data.assignments %}
-{%- assign itemid = assignment.title | slugify %}
-{%- if itemid == pageid %}
-{% include assignment_meta.md item=assignment %}
-{%- break %}
-{%- endif %}
-{%- endfor %}
+{% include assignment_meta.md %}
 
 Make your `Dockerfile` run your server on port `80` by default.
 [Release](https://help.github.com/en/articles/creating-releases) your implementation with the `a1` tag.
