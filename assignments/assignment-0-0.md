@@ -1,4 +1,5 @@
 ---
+title: Assignment 0-0
 ---
 
 See [Git/GitHub Slides](/slides/lecture-01-github.pdf) for help.

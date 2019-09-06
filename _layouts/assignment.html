@@ -2,30 +2,13 @@
 layout: default
 ---
 
-{%- assign pageid =  page.name | split: "." | first %}
-{%- for assignment in site.data.assignments %}
-{%- assign itemid = assignment.title | slugify %}
-{%- if itemid == pageid %}
-{%- assign page.title = assignment.title %}
+{%- assign assignment =  site.data.assignments | where: "title", page.title | first %}
 <h1>{{ assignment.title }}</h1>
 
 {{ assignment.description }}
 
-<p>
-<strong>Due Date:</strong> <span class="important">{{ assignment.date }}</span>
-{%- if assignment.featured %}
-<strong>(<span class="important">Submission due!</span>)</strong>
-{%- endif %}
-</p>
+<p><strong>Due Date:</strong> <span class="important">{{ assignment.date }}</span>{% if assignment.featured %}<strong>(<span class="important">Submission due!</span>)</strong>{% endif %}</p>
 
-<p>
-<strong>Available Points:</strong> <span class="important">{{ assignment.points }}</span>
-{%- if assignment.extra %}
-(Extra points)
-{%- endif %}
-</p>
-{%- break %}
-{%- endif %}
-{%- endfor %}
+<p><strong>Available Points:</strong> <span class="important">{{ assignment.points }}</span>{% if assignment.extra %}(Extra points){% endif %}</p>
 
 {{ content }}
