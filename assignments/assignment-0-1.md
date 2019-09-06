@@ -2,7 +2,7 @@
 permalink: /assignments/assignment-0-1
 ---
 
-{%- assign assignment = site.data.assignments["assignment-0-1"] %}
+{%- assign assignment = site.data.assignments | where: "id", "assignment-0-1" | first %}
 {% include assignment_meta.md item=assignment %}
 
 ## Part 1 - Echo Server in Docker

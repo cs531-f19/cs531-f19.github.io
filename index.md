@@ -23,9 +23,8 @@ permalink: /
 ## Due Assignments
 
 {%- for assignment in site.data.assignments %}
-{%- assign val = assignment[1] %}
-{%- if val.featured %}
-{% include card.md item=val type="assignment" %}
+{%- if assignment.featured %}
+{% include card.md item=assignment type="assignment" %}
 {%- endif %}
 {%- endfor %}
 

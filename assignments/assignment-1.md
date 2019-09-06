@@ -2,7 +2,7 @@
 permalink: /assignments/assignment-1
 ---
 
-{%- assign assignment = site.data.assignments["assignment-1"] %}
+{%- assign assignment = site.data.assignments | where: "id", "assignment-1" | first %}
 {% include assignment_meta.md item=assignment %}
 
 Make your `Dockerfile` run your server on port `80` by default.

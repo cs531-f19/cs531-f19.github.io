@@ -11,9 +11,8 @@ Late assignments lose 3 points for every 24 hours they are late unless prior arr
 <p class="important"><strong>* Assignments are subject to change!</strong></p>
 
 {%- for assignment in site.data.assignments %}
-{%- assign val = assignment[1] %}
-{%- unless val.extra %}
-{% include card.md item=val type="assignment" %}
+{%- unless assignment.extra %}
+{% include card.md item=assignment type="assignment" %}
 {%- endunless %}
 {%- endfor %}
 
@@ -22,8 +21,7 @@ Late assignments lose 3 points for every 24 hours they are late unless prior arr
 Opportunities to earn extra points will be made available on a rolling basis during the semester.
 
 {%- for assignment in site.data.assignments %}
-{%- assign val = assignment[1] %}
-{%- if val.extra %}
-{% include card.md item=val type="assignment" %}
+{%- if assignment.extra %}
+{% include card.md item=assignment type="assignment" %}
 {%- endif %}
 {%- endfor %}

@@ -2,7 +2,7 @@
 permalink: /assignments/assignment-0-0
 ---
 
-{%- assign assignment = site.data.assignments["assignment-0-0"] %}
+{%- assign assignment = site.data.assignments | where: "id", "assignment-0-0" | first %}
 {% include assignment_meta.md item=assignment %}
 
 See [Git/GitHub Slides](/slides/lecture-01-github.pdf) for help.
