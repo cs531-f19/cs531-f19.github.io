@@ -22,5 +22,3 @@ Readings and assignment descriptions will be released on a rolling basis during 
   {%- endfor %}
   </tbody>
 </table>
-
-{{site.data.grades | to_html_table }}
