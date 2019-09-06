@@ -14,7 +14,9 @@
       <h1 class="project-name"><a href="{{ '/' | relative_url }}">{{ site.data.course.title | default: site.github.repository_name }}</a></h1>
       <h2 class="project-tagline">{{ site.data.course.description | default: site.github.project_tagline }}</h2>
       {%- for item in site.navmenu %}
-      <a href="{{ item.href | relative_url }}" class="btn{% if page.name == item.file %} active{% endif %}">{{ item.title }}</a>
+      {%- assign url_parts = page.url | split: "/" %}
+      {%- assign href_parts = item.href | split: "/" %}
+      <a href="{{ item.href | relative_url }}" class="btn{% if url_parts[1] == href_parts[1] %} active{% endif %}">{{ item.title }}</a>
       {%- endfor %}
     </section>
     <section class="main-content">
