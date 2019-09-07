@@ -3,7 +3,6 @@
   date: 2019-09-05
   points: 5
   extra: true
-  featured: true
   topics:
   - Join GitHub
   - Subscribe to the discussion board repository
@@ -24,6 +23,7 @@
   description: A web server with a limited set of methods, status codes, headers, MIME types, and the access log.
   date: 2019-09-19
   points: 20
+  featured: true
 - title: Assignment 2
   description: TBD
   date: 2019-10-03
