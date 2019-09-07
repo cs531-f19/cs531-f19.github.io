@@ -87,3 +87,7 @@ p.expand {
 .card h2 a {
   color: $section-headings-color;
 }
+
+.page-header {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='250px' width='500px'><text x='0' y='0' font-size='18' fill='grey' font-family='monospace'><tspan x='0' dy='1.1em'>HTTP/1.1 200 OK</tspan><tspan x='0' dy='1.1em'>Content-Type: text/html; charset=utf-8</tspan><tspan x='0' dy='1.1em'>Content-Length: 8130</tspan><tspan x='0' dy='1.1em'>Date: Sat, 07 Sep 2019 00:06:37 GMT</tspan><tspan x='0' dy='1.1em'>Last-Modified: Fri, 06 Sep 2019 23:13:36 GMT</tspan><tspan x='0' dy='1.1em'>Expires: Sat, 07 Sep 2019 00:16:37 GMT</tspan><tspan x='0' dy='1.1em'>ETag: \"5d72e820-1fc2\"</tspan><tspan x='0' dy='1.1em'>Cache-Control: max-age=600</tspan><tspan x='0' dy='1.1em'>Vary: Accept-Encoding</tspan><tspan x='0' dy='1.1em'>Accept-Ranges: bytes</tspan><tspan x='0' dy='1.1em'>Server: GitHub.com</tspan><tspan x='0' dy='1.1em'>Connection: keep-alive</tspan></text></svg>"), linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+}
