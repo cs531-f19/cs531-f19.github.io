@@ -51,7 +51,7 @@ title: Assignment 3
 * Use these language encodings (in a config file):
   * `en`, `es`, `de`, `ja`, `ko`, `ru`
 * Use these non-`ASCII` charset encodings (in a config file):
-  * `.jis` -> `iso-2022-jp`
+  * `jis` -> `iso-2022-jp`
   * `koi8-r` -> `koi8-r`
   * `euc-kr` -> `euc-kr`
 * Build `Vary` response header as:
