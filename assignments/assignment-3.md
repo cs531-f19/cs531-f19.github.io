@@ -42,21 +42,21 @@ title: Assignment 3
 
 * Supports `gzip` and `compress`
 * Use `chunked` transfer encoding for any dynamically generated server response
-   * For example, directory listings and `3xx`, `4xx`, `5xx` html snippets
-   * Use 2 lines as the "chunk"
+  * For example, directory listings and `3xx`, `4xx`, `5xx` html snippets
+  * Use 2 lines as the "chunk"
 
 ## Notes
 
 * Support/advertise partial `GET` capability (i.e., `Accept-Range`) for all resources/responses for which you do not use `Transfer-Encoding: chunked`
 * Use these language encodings (in a config file):
-   * `en`, `es`, `de`, `ja`, `ko`, `ru`
+  * `en`, `es`, `de`, `ja`, `ko`, `ru`
 * Use these non-`ASCII` charset encodings (in a config file):
-   * `.jis` -> `iso-2022-jp`
-   * `koi8-r` -> `koi8-r`
-   * `euc-kr` -> `euc-kr`
+  * `.jis` -> `iso-2022-jp`
+  * `koi8-r` -> `koi8-r`
+  * `euc-kr` -> `euc-kr`
 * Build `Vary` response header as:
-   * `Vary: negotiate, header1, header2, ..., headerN`
-   * Only send `Vary` if content negotiation is possible for this URI
+  * `Vary: negotiate, header1, header2, ..., headerN`
+  * Only send `Vary` if content negotiation is possible for this URI
 * Generate structured `ETags` on selected representation as per RFC 2295 (section 9.2)
 
 {% include submission.md id="a3" %}
