@@ -2,6 +2,7 @@
 title: Assignment 1
 ---
 
+Tests will be performed based on the content of `a1-test` folder from the [samplel test files](https://raw.githubusercontent.com/ibnesayeed/webserver-tester/master/sample/cs531-test-files.tar.gz) (extract this tarball at your webroot).
 Make your `Dockerfile` run your server on port `80` by default.
 [Release](https://help.github.com/en/articles/creating-releases) your implementation with the `a1` tag.
 
