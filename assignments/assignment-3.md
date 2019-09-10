@@ -47,10 +47,6 @@ title: Assignment 3
 
 ## Notes
 
-* Tests will be performed based on the content of `a3-test` folder from the [sample test files](https://raw.githubusercontent.com/ibnesayeed/webserver-tester/master/sample/cs531-test-files.tar.gz) (extract this tarball at your web server's document root)
-* Make your `Dockerfile` run your server on port `80` by default
-* [Release](https://help.github.com/en/articles/creating-releases) your implementation with the `a3` tag
-* One point will be awarded for passing test cases of each of the previous assignments (except certain test cases where there are obvious backward compatibility conflicts)
 * Support/advertise partial `GET` capability (i.e., `Accept-Range`) for all resources/responses for which you do not use `Transfer-Encoding: chunked`
 * Use these language encodings (in a config file):
    * `en`, `es`, `de`, `ja`, `ko`, `ru`
@@ -62,3 +58,5 @@ title: Assignment 3
    * `Vary: negotiate, header1, header2, ..., headerN`
    * Only send `Vary` if content negotiation is possible for this URI
 * Generate structured `ETags` on selected representation as per RFC 2295 (section 9.2)
+
+{% include submission.md id="a3" %}
