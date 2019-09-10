@@ -25,7 +25,7 @@
   points: 20
   featured: true
 - title: Assignment 2
-  description: This assignment primarily focuses on conditionals and redirections with support of both long-lived and pipelined connections.
+  description: This assignment builds on top of the previous one and primarily focuses on conditionals and redirections with support of both long-lived and pipelined connections.
   date: 2019-10-03
   points: 20
 - title: Assignment 3
