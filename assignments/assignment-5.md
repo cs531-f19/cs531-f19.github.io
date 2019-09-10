@@ -4,9 +4,9 @@ title: Assignment 5
 
 ## Additional Methods
 
-* DELETE
-* PUT
-* POST
+* `DELETE`
+* `PUT`
+* `POST`
 
 N.B. - Update to the `OPTIONS` method
 
@@ -63,7 +63,7 @@ N.B. - Update to the `OPTIONS` method
   * `POST`, `GET`, or `HEAD` method is used
   * The file is executable and not a directory
 * **Warning!!!** -- Ensure your URI is relative to your document root (e.g., `GET /bin/rm?-rf HTTP/1.1` would be very bad)
-* Update the log format to include the `User-agent` and `Referer` request headers:
+* Update the log format to include the `User-agent` and `Referer` request headers:  
   `"%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\""`
 * Add `ALLOW-PUT` and `ALLOW-DELETE` custom directives in the `WeMustProtectThisHouse!` file:
 
