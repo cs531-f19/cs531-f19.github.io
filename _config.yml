@@ -1,5 +1,4 @@
 permalink: pretty
-
 navigation:
   - title: Home
     href: /
@@ -13,7 +12,6 @@ navigation:
     href: https://cs531.cs.odu.edu/
   - title: Discussions
     href: https://github.com/cs531-f19/discussions
-
 defaults:
   - scope:
       path: ""

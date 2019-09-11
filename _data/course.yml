@@ -16,8 +16,8 @@ department:
 location: Dragas Hall (DRGS) 1117
 timing: Thursdays, 4:20-7:00pm
 crns:
-- 20452 (CS431)
-- 20453 (CS531)
+  - 20452 (CS431)
+  - 20453 (CS531)
 instructor:
   name: Sawood Alam
   email: salam@cs.odu.edu
