@@ -11,7 +11,7 @@ navmenu:
   href: https://cs531.cs.odu.edu/
 - title: Discussions
   href: https://github.com/cs531-f19/discussions
-permalink: /:categories/:title/
+permalink: pretty
 defaults:
 - scope:
     path: ""
