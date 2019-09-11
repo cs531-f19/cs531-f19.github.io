@@ -50,6 +50,9 @@
   topics:
     - Conditionals (ETags and Date-time)
     - Redirections
+  links:
+    - title: Conditionals and Redirections Slides
+      href: /slides/lecture-03-conditionals-redirections.pdf
 - title: Lecture 4
   date: 2019-09-19
   topics:
