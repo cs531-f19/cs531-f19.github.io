@@ -21,7 +21,6 @@
       href: https://tools.ietf.org/html/rfc7231
 - title: Lecture 2
   date: 2019-09-05
-  featured: true
   topics:
     - URIs
     - Logs
@@ -40,7 +39,7 @@
       href: https://training.play-with-docker.com/microservice-orchestration/
     - title: Testing Server
       href: https://cs531.cs.odu.edu/
-    - title: RFC 7231 (Section 5)
+    - title: RFC 7230 (Section 5)
       href: https://tools.ietf.org/html/rfc7230
     - title: RFC 3986
       href: https://tools.ietf.org/html/rfc3986
@@ -53,8 +52,15 @@
   links:
     - title: Conditionals and Redirections Slides
       href: /slides/lecture-03-conditionals-redirections.pdf
+    - title: RFC 7231 (Section 6.4)
+      href: https://tools.ietf.org/html/rfc7231
+    - title: RFC 7538
+      href: https://tools.ietf.org/html/rfc7538
+    - title: RFC 7232
+      href: https://tools.ietf.org/html/rfc7232
 - title: Lecture 4
   date: 2019-09-19
+  featured: true
   topics:
     - Long-lived Connections
     - Pipelines
