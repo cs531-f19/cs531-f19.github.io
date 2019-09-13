@@ -9,14 +9,21 @@
     - Create your private assignment repository
     - Tell me what your class repository is
 - title: Assignment 0-1
-  description: A Dokerized echo server implementation and cloud hosting tutorial.
-  date: 2019-09-12
-  points: 10
+  description: A Dokerized echo server implementation.
+  date: 2019-09-15
+  points: 5
   extra: true
   featured: true
   topics:
     - Implement a simple echo server
     - Run it in a Docker container
+- title: Assignment 0-2
+  description: Creating a cloud hosting tutorial.
+  date: 2019-09-19
+  points: 5
+  extra: true
+  featured: true
+  topics:
     - Prepare a step by step cloud server set up tutorial
     - Run an echo server in it
 - title: Assignment 1
