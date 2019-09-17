@@ -13,7 +13,6 @@
   date: 2019-09-15
   points: 5
   extra: true
-  featured: true
   topics:
     - Implement a simple echo server
     - Run it in a Docker container
