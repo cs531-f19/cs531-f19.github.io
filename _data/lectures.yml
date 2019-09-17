@@ -64,6 +64,13 @@
   topics:
     - Long-lived Connections
     - Pipelines
+  links:
+    - title: Long-lived Connections, Pipelines Slides
+      href: /slides/lecture-04-long-lived-connections-pipelines.pdf
+    - title: RFC 7230 (Section 6)
+      href: https://tools.ietf.org/html/rfc7230
+    - title: RFC 7231 (Section 4.2)
+      href: https://tools.ietf.org/html/rfc7231
 - title: Lecture 5
   date: 2019-09-26
   topics:
