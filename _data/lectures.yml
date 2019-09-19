@@ -45,7 +45,6 @@
       href: https://tools.ietf.org/html/rfc3986
 - title: Lecture 3
   date: 2019-09-12
-  featured: true
   topics:
     - Conditionals (ETags and Date-time)
     - Redirections
@@ -73,8 +72,12 @@
       href: https://tools.ietf.org/html/rfc7231
 - title: Lecture 5
   date: 2019-09-26
+  featured: true
   topics:
     - Range and Partial Content
+  links:
+    - title: RFC 7233
+      href: https://tools.ietf.org/html/rfc7233
 - title: Lecture 6
   date: 2019-10-03
   topics:
