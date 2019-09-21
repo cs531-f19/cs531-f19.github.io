@@ -5,9 +5,33 @@
     <title>{{ page.title | default: 'Home' }} | {{ site.data.course.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+    <meta name="author" content="{{ site.data.course.instructor.name }}">
+    <meta name="description" content="{{ site.data.course.description }}">
+    <meta name="og:locale" content="en_US">
+    <meta name="og:title" content="{{ page.title | default: 'Home' }} | {{ site.data.course.title }}">
+    <meta name="og:description" content="{{ site.data.course.description }}">
+    <meta name="og:url" content="{{ page.url | absolute_url }}">
+    <meta name="og:site_name" content="{{ site.data.course.title }}">
+    <meta name="og:image" content="{{ site.data.course.instructor.avatar | absolute_url }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ page.title | default: 'Home' }} | {{ site.data.course.title }}">
+    <meta name="twitter:description" content="{{ site.data.course.description }}">
+    <meta name="twitter:image" content="{{ site.data.course.instructor.avatar | absolute_url }}">
+    <meta name="twitter:username" content="{{ site.data.course.instructor.twitter }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico?v=' | append: site.github.build_revision | relative_url }}">
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "{{ page.url | absolute_url }}",
+        "name": "{{ site.data.course.title }}",
+        "headline": "{{ page.title | default: 'Home' }} | {{ site.data.course.title }}",
+        "description": "{{ site.data.course.description }}"
+      }
+    </script>
   </head>
   <body>
     <section class="page-header">
