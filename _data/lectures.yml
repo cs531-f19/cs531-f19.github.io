@@ -76,6 +76,8 @@
   topics:
     - Range and Partial Content
   links:
+    - title: Range and Partial Content Slides
+      href: /slides/lecture-05-range-partial-content.pdf
     - title: RFC 7233
       href: https://tools.ietf.org/html/rfc7233
 - title: Lecture 6
