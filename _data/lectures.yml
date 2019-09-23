@@ -75,6 +75,7 @@
   featured: true
   topics:
     - Range and Partial Content
+    - Introduction to Python
   links:
     - title: Range and Partial Content Slides
       href: /slides/lecture-05-range-partial-content.pdf
