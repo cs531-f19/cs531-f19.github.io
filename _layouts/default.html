@@ -12,12 +12,14 @@
     <meta name="og:description" content="{{ site.data.course.description }}">
     <meta name="og:url" content="{{ page.url | absolute_url }}">
     <meta name="og:site_name" content="{{ site.data.course.title }}">
+    {%- if site.data.course.banner %}
+    <meta name="og:image" content="{{ site.data.course.banner | absolute_url }}">
+    <meta name="twitter:card" content="summary_large_image">
+    {%- else %}
     <meta name="og:image" content="{{ site.data.course.instructor.avatar | absolute_url }}">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{{ page.title | default: 'Home' }} | {{ site.data.course.title }}">
-    <meta name="twitter:description" content="{{ site.data.course.description }}">
-    <meta name="twitter:image" content="{{ site.data.course.instructor.avatar | absolute_url }}">
-    <meta name="twitter:username" content="{{ site.data.course.instructor.twitter }}">
+    {%- endif %}
+    <meta name="twitter:site" content="@{{ site.data.course.instructor.twitter }}">
     <link rel="canonical" href="{{ page.url | absolute_url }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
