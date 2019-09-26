@@ -79,6 +79,8 @@
   links:
     - title: Range and Partial Content Slides
       href: /slides/lecture-05-range-partial-content.pdf
+    - title: Introduction to Python Slides
+      href: /slides/lecture-05-python.pdf
     - title: RFC 7233
       href: https://tools.ietf.org/html/rfc7233
 - title: Lecture 6
