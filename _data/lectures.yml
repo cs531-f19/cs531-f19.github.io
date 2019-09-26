@@ -59,7 +59,6 @@
       href: https://tools.ietf.org/html/rfc7232
 - title: Lecture 4
   date: 2019-09-19
-  featured: true
   topics:
     - Long-lived Connections
     - Pipelines
@@ -85,6 +84,7 @@
       href: https://tools.ietf.org/html/rfc7233
 - title: Lecture 6
   date: 2019-10-03
+  featured: true
   topics:
     - Transfer Encodings
     - Content Encodings
