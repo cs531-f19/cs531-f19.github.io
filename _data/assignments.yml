@@ -34,6 +34,7 @@
   description: This assignment builds on top of the previous one and primarily focuses on conditionals and redirections with support for both long-lived and pipelined connections.
   date: 2019-10-10
   points: 20
+  featured: true
 - title: Assignment 3
   description: This assignment builds on top of previous assignments and primarily focuses on encoding, content negotiation, and partial content.
   date: 2019-10-24
