@@ -21,7 +21,6 @@
   date: 2019-09-26
   points: 5
   extra: true
-  featured: true
   topics:
     - Prepare a step by step cloud server set up tutorial
     - Run an echo server in it
