@@ -90,7 +90,11 @@
     - Content Encodings
   links:
     - title: Transfer and Content Encodings Slides
-    - href: /slides/lecture-06-transfer-content-encodings.pdf
+      href: /slides/lecture-06-transfer-content-encodings.pdf
+    - title: RFC 7230 (Section 3.3.1, 4)
+      href: https://tools.ietf.org/html/rfc7230
+    - title: RFC 7231 (Section 3.1.2, 5.5)
+      href: https://tools.ietf.org/html/rfc7231
 - title: Lecture 7
   date: 2019-10-10
   topics:
