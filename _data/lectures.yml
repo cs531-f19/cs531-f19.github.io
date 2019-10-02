@@ -88,6 +88,9 @@
   topics:
     - Transfer Encodings
     - Content Encodings
+  links:
+    - title: Transfer and Content Encodings Slides
+    - href: /slides/lecture-06-transfer-content-encodings.pdf
 - title: Lecture 7
   date: 2019-10-10
   topics:
