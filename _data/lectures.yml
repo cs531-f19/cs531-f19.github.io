@@ -71,7 +71,6 @@
       href: https://tools.ietf.org/html/rfc7231
 - title: Lecture 5
   date: 2019-09-26
-  featured: true
   topics:
     - Range and Partial Content
     - Introduction to Python
@@ -98,6 +97,7 @@
       href: https://tools.ietf.org/html/rfc7231
 - title: Lecture 7
   date: 2019-10-10
+  featured: true
   topics:
     - Content Negotiation
 - title: Lecture 8
