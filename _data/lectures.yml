@@ -89,8 +89,8 @@
     - Transfer Encodings
     - Content Encodings
   links:
-    - title: Transfer and Content Encodings Slides
-      href: /slides/lecture-06-transfer-content-encodings.pdf
+    - title: Character, Content, and Transfer Encodings Slides
+      href: /slides/lecture-06-character-content-transfer-encodings.pdf
     - title: RFC 7230 (Section 3.3.1, 4)
       href: https://tools.ietf.org/html/rfc7230
     - title: RFC 7231 (Section 3.1.2, 5.5)
