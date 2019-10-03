@@ -86,8 +86,9 @@
   date: 2019-10-03
   featured: true
   topics:
-    - Transfer Encodings
+    - Character Encoding
     - Content Encodings
+    - Transfer Encodings
   links:
     - title: Character, Content, and Transfer Encodings Slides
       href: /slides/lecture-06-character-content-transfer-encodings.pdf
