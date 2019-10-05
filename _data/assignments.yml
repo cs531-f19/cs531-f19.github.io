@@ -26,7 +26,7 @@
     - Run an echo server in it
 - title: Assignment 1
   description: A web server with a limited set of methods, status codes, headers, MIME types, and the access log.
-  date: 2019-10-03
+  date: 2019-10-06
   points: 20
   featured: true
 - title: Assignment 2
