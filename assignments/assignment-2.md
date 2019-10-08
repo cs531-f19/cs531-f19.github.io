@@ -38,9 +38,9 @@ title: Assignment 2
 
 ```yml
 # Status: Incoming RegExp          Redirect URI
-302: ^/a2-test/(.*)/coolcar.html$  /a2-test/$1/galaxie.html
+302: ^(.*)/coolcar.html$           $1/galaxie.html
 302: ^/a2-test/(.*)/1\.[234]/(.*)  /a2-test/$1/1.1/$2
-301: ^/a2-test/(.*)/mercury/(.*)$  /a2-test/$1/ford/$2
+301: ^(.*)/mercury/(.*)$           $1/ford/$2
 ```
 
 {% include submission.md id="a2" %}
