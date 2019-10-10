@@ -100,6 +100,13 @@
   featured: true
   topics:
     - Content Negotiation
+  links:
+    - title: Content Negotiation Slides
+      href: /slides/lecture-07-content-negotiation.pdf
+    - title: RFC 7231 (Section 3.4, 5.3)
+      href: https://tools.ietf.org/html/rfc7231
+    - title: RFC 2295
+      href: https://tools.ietf.org/html/rfc2295
 - title: Lecture 8
   date: 2019-10-17
   topics:
