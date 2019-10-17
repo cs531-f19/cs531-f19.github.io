@@ -112,6 +112,8 @@
   topics:
     - Authentication (Basic and Digest)
   links:
+    - title: Authentication Slides
+      href: /slides/lecture-08-authentication.pdf
     - title: RFC 7235
       href: https://tools.ietf.org/html/rfc7235
     - title: RFC 7616
