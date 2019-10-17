@@ -151,8 +151,11 @@
   date: 2019-11-28
   topics:
     - No Class
-- title: RESERVED
+- title: Lecture 14
   date: 2019-12-05
+  topics:
+    - InterPlanetary File System (IPFS)
+    - InterPlanetary Wayback (IPWB)
 - title: Exam Week
   date: 2019-12-12
   topics:
