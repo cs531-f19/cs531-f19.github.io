@@ -24,6 +24,25 @@
   topics:
     - Prepare a step by step cloud server set up tutorial
     - Run an echo server in it
+- title: Assignment 0-3
+  description: Mobile domain redirection and non-accept-encoding content negotiation examples in the wild.
+  date: 2019-10-31
+  points: 6
+  extra: true
+  featured: true
+  topics:
+    - Redirection to mobile domain
+    - Content negotiation other than accept-encoding
+- title: Assignment 0-4
+  description: HTTP Trailer, multiple transfer encoding, and user-agent-specific access denial examples in the wild.
+  date: 2019-11-07
+  points: 9
+  extra: true
+  featured: true
+  topics:
+    - HTTP Trailer
+    - Multiple transfer encoding
+    - Access denied for some user agents
 - title: Assignment 1
   description: A web server with a limited set of methods, status codes, headers, MIME types, and the access log.
   date: 2019-10-06
@@ -32,7 +51,6 @@
   description: This assignment builds on top of the previous one and primarily focuses on conditionals and redirections with support for both long-lived and pipelined connections.
   date: 2019-10-17
   points: 20
-  featured: true
 - title: Assignment 3
   description: This assignment builds on top of previous assignments and primarily focuses on encoding, content negotiation, and partial content.
   date: 2019-10-24
