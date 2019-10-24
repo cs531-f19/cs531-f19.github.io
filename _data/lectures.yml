@@ -124,26 +124,33 @@
   featured: true
   topics:
     - Unsafe Methods
-- title: Lecture 10
-  date: 2019-10-31
-  topics:
     - Server-side Execution
     - CGI
-- title: Lecture 11
-  date: 2019-11-07
+  links:
+    - title: Unsafe Methods Slides
+      href: /slides/lecture-09-unsafe-methods.pdf
+    - title: Server-Side Execution Slides
+      href: /slides/lecture-09-server-side-execution.pdf
+    - title: RFC 3875
+      href: https://tools.ietf.org/html/rfc3875
+- title: Lecture 10
+  date: 2019-10-31
   topics:
     - HTTPS (HTTP Over TLS)
     - HTTP/2
     - HTTP/3
+- title: Lecture 11
+  date: 2019-11-07
+  topics:
+    - REST/HATEOAS
+    - Memento
+    - HTTP Method Support
 - title: Lecture 12
   date: 2019-11-14
   topics:
-    - HTTP Method Support
     - HTTPMailbox
-    - Memento
     - WARC
     - Web Packaging
-    - REST/HATEOAS
 - title: Lecture 13
   date: 2019-11-21
   topics:
