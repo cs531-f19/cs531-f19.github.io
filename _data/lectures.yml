@@ -107,7 +107,6 @@
       href: https://tools.ietf.org/html/rfc2295
 - title: Lecture 8
   date: 2019-10-17
-  featured: true
   topics:
     - Authentication (Basic and Digest)
   links:
@@ -135,6 +134,7 @@
       href: https://tools.ietf.org/html/rfc3875
 - title: Lecture 10
   date: 2019-10-31
+  featured: true
   topics:
     - HTTPS (HTTP Over TLS)
     - HTTP/2

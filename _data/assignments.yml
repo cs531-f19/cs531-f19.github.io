@@ -53,13 +53,14 @@
   points: 20
 - title: Assignment 3
   description: This assignment builds on top of previous assignments and primarily focuses on encoding, content negotiation, and partial content.
-  date: 2019-10-24
+  date: 2019-10-27
   points: 20
   featured: true
 - title: Assignment 4
   description: This assignment builds on top of previous assignments and primarily focuses on authentication and authorization.
   date: 2019-11-07
   points: 20
+  featured: true
 - title: Assignment 5
   description: This assignment builds on top of previous assignments and primarily focuses on unsafe methods and server-side execution (CGI).
   date: 2019-11-21
