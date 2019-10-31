@@ -139,6 +139,21 @@
     - HTTPS (HTTP Over TLS)
     - HTTP/2
     - HTTP/3
+  links:
+    - title: HTTPS, HTTP/2, HTTP/3 Slides
+      href: /slides/lecture-10-https-http2-http3.pdf
+    - title: HTTP2 Explained
+      href: https://daniel.haxx.se/http2/
+    - title: HTTP3 Explained
+      href: https://daniel.haxx.se/http3-explained/
+    - title: RFC 2818
+      href: https://tools.ietf.org/html/rfc2818
+    - title: RFC 8555
+      href: https://tools.ietf.org/html/rfc8555
+    - title: RFC 7540
+      href: https://tools.ietf.org/html/rfc7540
+    - title: HTTP3 RFC Draft
+      href: https://tools.ietf.org/html/draft-ietf-quic-http-23
 - title: Lecture 11
   date: 2019-11-07
   topics:
