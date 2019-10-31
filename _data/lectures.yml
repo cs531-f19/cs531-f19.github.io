@@ -140,8 +140,10 @@
     - HTTP/2
     - HTTP/3
   links:
-    - title: HTTPS, HTTP/2, HTTP/3 Slides
-      href: /slides/lecture-10-https-http2-http3.pdf
+    - title: HTTPS Slides
+      href: /slides/lecture-10-https.pdf
+    - title: HTTP/2 and HTTP/3 Slides
+      href: /slides/lecture-10-http2-http3.pdf
     - title: HTTP2 Explained
       href: https://daniel.haxx.se/http2/
     - title: HTTP3 Explained
