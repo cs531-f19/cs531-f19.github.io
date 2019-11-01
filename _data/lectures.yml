@@ -120,7 +120,6 @@
       href: https://tools.ietf.org/html/rfc7617
 - title: Lecture 9
   date: 2019-10-24
-  featured: true
   topics:
     - Unsafe Methods
     - Server-side Execution
@@ -158,6 +157,7 @@
       href: https://tools.ietf.org/html/draft-ietf-quic-http-23
 - title: Lecture 11
   date: 2019-11-07
+  featured: true
   topics:
     - REST/HATEOAS
     - Memento

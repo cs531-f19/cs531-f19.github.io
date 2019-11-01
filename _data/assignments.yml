@@ -29,7 +29,6 @@
   date: 2019-10-31
   points: 6
   extra: true
-  featured: true
   topics:
     - Redirection to mobile domain
     - Content negotiation other than accept-encoding
@@ -55,7 +54,6 @@
   description: This assignment builds on top of previous assignments and primarily focuses on encoding, content negotiation, and partial content.
   date: 2019-10-27
   points: 20
-  featured: true
 - title: Assignment 4
   description: This assignment builds on top of previous assignments and primarily focuses on authentication and authorization.
   date: 2019-11-07
@@ -65,3 +63,4 @@
   description: This assignment builds on top of previous assignments and primarily focuses on unsafe methods and server-side execution (CGI).
   date: 2019-11-21
   points: 20
+  featured: true
