@@ -1,7 +1,7 @@
 ## Grading
 
 The class grade will consist of 5 Assignments of 20 points each.
-Each assignment will be demoed in class. Late assignments lose 3 points for every 24 hours they are late unless prior arrangements are made with the instructor.
+Late assignments lose 3 points for every 24 hours they are late unless prior arrangements are made with the instructor.
 Readings and assignment descriptions will be released on a rolling basis during the semester.
 
 <table>
