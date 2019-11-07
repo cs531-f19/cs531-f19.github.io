@@ -165,7 +165,7 @@
   links:
     - title: Representational state transfer (REST)
       href: https://en.wikipedia.org/wiki/Representational_state_transfer
-    - title: https://en.wikipedia.org/wiki/HATEOAS
+    - title: Hypermedia as the Engine of Application State (HATEOAS)
       href: https://en.wikipedia.org/wiki/HATEOAS
     - title: Domain-Driven Design for RESTful Systems - Jim Webber
       href: https://www.youtube.com/watch?v=aQVSzMV8DWc
