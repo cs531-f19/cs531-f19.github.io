@@ -25,7 +25,7 @@ title: Assignment 4
 
 ## Notes
 
-* Implement `Basic` and `Digest` Authentication as per Lecture 7 slides (and RFCs 7617 and 7616)
+* Implement `Basic` and `Digest` Authentication as per Lecture 8 slides (and RFCs 7617 and 7616)
 * In your server configuration file: provide private key (any word or phrase) to use in generating `nonce` & `opaque` values (though, this is not the safest way to do this)
 * Provide a configurable value for how to protect directories
   * Default name is = `WeMustProtectThisHouse!`

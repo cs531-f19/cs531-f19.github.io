@@ -162,6 +162,19 @@
     - REST/HATEOAS
     - Memento
     - HTTP Method Support
+  links:
+    - title: Representational state transfer (REST)
+      href: https://en.wikipedia.org/wiki/Representational_state_transfer
+    - title: https://en.wikipedia.org/wiki/HATEOAS
+      href: https://en.wikipedia.org/wiki/HATEOAS
+    - title: Domain-Driven Design for RESTful Systems - Jim Webber
+      href: https://www.youtube.com/watch?v=aQVSzMV8DWc
+    - title: How I Explained REST to My Wife - Ryan Tomayko
+      href: https://web.archive.org/web/20111006111858/http://tomayko.com:80/writings/rest-to-my-wife
+    - title: Memento 101
+      href: https://www.slideshare.net/hvdsomp/memento-101
+    - title: Support for Various HTTP Methods on the Web
+      href: https://www.slideshare.net/ibnesayeed/support-for-various-http-methods-on-the-web
 - title: Lecture 12
   date: 2019-11-14
   topics:
