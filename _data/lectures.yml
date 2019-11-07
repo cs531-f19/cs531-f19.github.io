@@ -163,10 +163,8 @@
     - Memento
     - HTTP Method Support
   links:
-    - title: Representational state transfer (REST)
-      href: https://en.wikipedia.org/wiki/Representational_state_transfer
-    - title: Hypermedia as the Engine of Application State (HATEOAS)
-      href: https://en.wikipedia.org/wiki/HATEOAS
+    - title: REST, HATEOAS, and Follow Your Nose
+      href: https://ws-dl.blogspot.com/2013/11/2013-11-19-rest-hateoas-and-follow-your.html
     - title: Domain-Driven Design for RESTful Systems - Jim Webber
       href: https://www.youtube.com/watch?v=aQVSzMV8DWc
     - title: How I Explained REST to My Wife - Ryan Tomayko
