@@ -133,7 +133,6 @@
       href: https://tools.ietf.org/html/rfc3875
 - title: Lecture 10
   date: 2019-10-31
-  featured: true
   topics:
     - HTTPS (HTTP Over TLS)
     - HTTP/2
@@ -175,25 +174,32 @@
       href: https://www.slideshare.net/ibnesayeed/support-for-various-http-methods-on-the-web
 - title: Lecture 12
   date: 2019-11-14
+  featured: true
   topics:
     - HTTPMailbox
     - WARC
     - Web Packaging
+  links:
+    - title: HTTP Mailbox - Asynchronous RESTful Communication
+      href: https://www.slideshare.net/ibnesayeed/httpmailbox
+    - title: Web ARChive (WARC) File Format
+      href: https://www.slideshare.net/ibnesayeed/web-archive-warc-file-format
+    - title: Supporting Web Archiving via Web Packaging
+      href: https://www.slideshare.net/ibnesayeed/supporting-web-archiving-via-web-packaging
 - title: Lecture 13
   date: 2019-11-21
   topics:
-    - Proxy
-    - Caching
+    - InterPlanetary File System (IPFS)
+    - InterPlanetary Wayback (IPWB)
 - title: Thanksgiving
   date: 2019-11-28
   topics:
-    - No Class
+    - NO CLASS
 - title: Lecture 14
   date: 2019-12-05
   topics:
-    - InterPlanetary File System (IPFS)
-    - InterPlanetary Wayback (IPWB)
+    - RESERVED
 - title: Exam Week
   date: 2019-12-12
   topics:
-    - No Class
+    - NO CLASS

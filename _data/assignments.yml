@@ -34,7 +34,7 @@
     - Content negotiation other than accept-encoding
 - title: Assignment 0-4
   description: HTTP Trailer, multiple transfer encoding, and user-agent-specific access denial examples in the wild.
-  date: 2019-11-07
+  date: 2019-11-10
   points: 9
   extra: true
   featured: true
