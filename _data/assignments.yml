@@ -37,7 +37,6 @@
   date: 2019-11-10
   points: 9
   extra: true
-  featured: true
   topics:
     - HTTP Trailer
     - Multiple transfer encoding
