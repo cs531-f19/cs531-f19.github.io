@@ -156,7 +156,6 @@
       href: https://tools.ietf.org/html/draft-ietf-quic-http-23
 - title: Lecture 11
   date: 2019-11-07
-  featured: true
   topics:
     - REST/HATEOAS
     - Memento
@@ -188,6 +187,7 @@
       href: https://www.slideshare.net/ibnesayeed/supporting-web-archiving-via-web-packaging
 - title: Lecture 13
   date: 2019-11-21
+  featured: true
   topics:
     - InterPlanetary File System (IPFS)
     - InterPlanetary Wayback (IPWB)
