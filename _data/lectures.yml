@@ -191,6 +191,11 @@
   topics:
     - InterPlanetary File System (IPFS)
     - InterPlanetary Wayback (IPWB)
+  links:
+    - title: How IPFS Works
+      href: https://www.cs.odu.edu/~salam/presentations/How-IPFS-Works.pdf
+    - title: InterPlanetary Wayback - The Next Step Towards Decentralized Web Archiving
+      href: https://www.slideshare.net/ibnesayeed/interplanetary-wayback-the-next-step-towards-decentralized-web-archiving-108525567
 - title: Thanksgiving
   date: 2019-11-28
   topics:
