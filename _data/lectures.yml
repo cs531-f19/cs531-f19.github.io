@@ -173,7 +173,6 @@
       href: https://www.slideshare.net/ibnesayeed/support-for-various-http-methods-on-the-web
 - title: Lecture 12
   date: 2019-11-14
-  featured: true
   topics:
     - HTTPMailbox
     - WARC
@@ -198,6 +197,7 @@
       href: https://www.slideshare.net/ibnesayeed/interplanetary-wayback-the-next-step-towards-decentralized-web-archiving-108525567
 - title: Thanksgiving
   date: 2019-11-28
+  featured: true
   topics:
     - NO CLASS
 - title: Lecture 14
