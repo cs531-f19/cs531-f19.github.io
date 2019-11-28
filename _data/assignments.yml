@@ -59,6 +59,6 @@
   points: 20
 - title: Assignment 5
   description: This assignment builds on top of previous assignments and primarily focuses on unsafe methods and server-side execution (CGI).
-  date: 2019-11-28
+  date: 2019-12-02
   points: 20
   featured: true
