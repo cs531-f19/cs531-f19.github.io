@@ -186,7 +186,6 @@
       href: https://www.slideshare.net/ibnesayeed/supporting-web-archiving-via-web-packaging
 - title: Lecture 13
   date: 2019-11-21
-  featured: true
   topics:
     - InterPlanetary File System (IPFS)
     - InterPlanetary Wayback (IPWB)
@@ -202,6 +201,7 @@
     - NO CLASS
 - title: RESERVED
   date: 2019-12-05
+  featured: true
   topics:
     - NO CLASS
 - title: Exam Week
