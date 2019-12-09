@@ -196,7 +196,6 @@
       href: https://www.slideshare.net/ibnesayeed/interplanetary-wayback-the-next-step-towards-decentralized-web-archiving-108525567
 - title: Thanksgiving
   date: 2019-11-28
-  featured: true
   topics:
     - NO CLASS
 - title: RESERVED
@@ -206,5 +205,6 @@
     - NO CLASS
 - title: Exam Week
   date: 2019-12-12
+  featured: true
   topics:
     - NO CLASS

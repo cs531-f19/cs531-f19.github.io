@@ -41,6 +41,18 @@
     - HTTP Trailer
     - Multiple transfer encoding
     - Access denied for some user agents
+- title: Assignment 0-5
+  description: HTTP design improvements, WARC file comparison, and in the wild examples of non-standard status codes, wrong MIME types, and unsafe methods.
+  date: 2019-12-12
+  points: 9
+  extra: true
+  featured: true
+  topics:
+    - Non-standard status codes
+    - PATCH, PUT, and DELETE methods
+    - Wrong API MIME type
+    - HTTP/1.1 design improvements
+    - WARC file comparison
 - title: Assignment 1
   description: A web server with a limited set of methods, status codes, headers, MIME types, and the access log.
   date: 2019-10-06
