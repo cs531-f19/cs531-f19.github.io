@@ -1,5 +1,6 @@
 - title: Lecture 1
   date: 2019-08-29
+  # featured: true
   topics:
     - Administrivia
     - Introduction to HTTP
@@ -200,11 +201,9 @@
     - NO CLASS
 - title: RESERVED
   date: 2019-12-05
-  featured: true
   topics:
     - NO CLASS
 - title: Exam Week
   date: 2019-12-12
-  featured: true
   topics:
     - NO CLASS

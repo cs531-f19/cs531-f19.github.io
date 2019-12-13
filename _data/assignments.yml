@@ -3,6 +3,7 @@
   date: 2019-09-05
   points: 5
   extra: true
+  # featured: true
   topics:
     - Join GitHub
     - Subscribe to the discussion board repository
@@ -46,7 +47,6 @@
   date: 2019-12-12
   points: 9
   extra: true
-  featured: true
   topics:
     - Non-standard status codes
     - PATCH, PUT, and DELETE methods
@@ -73,4 +73,3 @@
   description: This assignment builds on top of previous assignments and primarily focuses on unsafe methods and server-side execution (CGI).
   date: 2019-12-05
   points: 20
-  featured: true
